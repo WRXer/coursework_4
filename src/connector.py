@@ -1,3 +1,6 @@
+import json
+
+
 class Connector:
     """
     Класс коннектор к файлу, обязательно файл должен быть в json формате
@@ -23,7 +26,8 @@ class Connector:
         """
         pass
 
-    def insert(self, data):
+
+    def insert(self):
         """
         Запись данных в файл с сохранением структуры и исходных данных
         """
